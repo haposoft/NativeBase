@@ -83,7 +83,7 @@ export class DatePicker extends React.Component {
       : variable;
     return (
       <View>
-        <View>
+      {/*<View>
           <Text
             onPress={!this.state.disabled ? this.showDatePicker.bind(this) : undefined}
             style={[
@@ -124,7 +124,7 @@ export class DatePicker extends React.Component {
               />
             </Modal>
           </View>
-        </View>
+        </View>*/}
       </View>
     );
   }
